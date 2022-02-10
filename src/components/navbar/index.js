@@ -1,12 +1,14 @@
 import React from "react";
 import './navbar.css';
-import mafalda from '..imagens/mafalda.jpeg'
+import mafalda from '../imagens/mafalda.jpg';
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 function Navbar (){
     return(
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-      <img src={}/>
+      <img src={mafalda}/>
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -17,7 +19,7 @@ function Navbar (){
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+        <Link to="Pricing">Youtubekkkk</Link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
@@ -29,7 +31,12 @@ function Navbar (){
     </div>
   </div>
 </nav>
-    )
+    );
 }
 
 export default Navbar;
+
+const Mafalda = styled.img`
+width: 25px;
+height: 25px;
+`;

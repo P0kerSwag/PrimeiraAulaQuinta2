@@ -20,3 +20,11 @@ https://nodejs.org/en/donwload/
 
 
 ```npm start```
+
+# 4 
+
+```npm install react-router-dom@6```
+
+# 5
+
+```npm install --save styled-components```
