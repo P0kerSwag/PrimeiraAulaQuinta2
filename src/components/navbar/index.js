@@ -22,10 +22,13 @@ function Navbar (){
         <Link to="Pricing">Youtubekkkk</Link>
         </li>
         <li class="nav-item">
+        <Link to="/contato">Contato</Link>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+         <Link to='/exemplo_grid'> Exemplo Grid</Link> 
         </li>
       </ul>
     </div>
